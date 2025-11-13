@@ -641,7 +641,7 @@ function Home() {
       <div className="fixed left-4 top-1/2 -translate-y-1/2 z-50 flex flex-col gap-3">
         <button
           onClick={() => setEnquiryOpen(!enquiryOpen)}
-          className="bg-black text-white px-4 py-3 rounded-md text-sm font-semibold shadow-lg hover:bg-gray-800 transition"
+          className="bg-black text-white px-1 py-3 rounded-md text-[12px] font-semibold shadow-lg hover:bg-gray-800 transition"
         >
           Enquiry
         </button>
@@ -650,7 +650,7 @@ function Home() {
           className="bg-red-600 text-white p-3 rounded-md shadow-lg hover:bg-red-700 transition"
           aria-label="Email"
         >
-          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+          <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
             <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
             <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
           </svg>
@@ -660,7 +660,7 @@ function Home() {
           className="bg-red-600 text-white p-3 rounded-md shadow-lg hover:bg-red-700 transition"
           aria-label="Phone"
         >
-          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+          <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
             <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
           </svg>
         </a>
@@ -671,7 +671,7 @@ function Home() {
           className="bg-green-500 text-white p-3 rounded-md shadow-lg hover:bg-green-600 transition"
           aria-label="WhatsApp"
         >
-          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.408.148-.673.149-.198.297-.297.445-.446.149-.15.297-.297.446-.446.297-.297.644-.446.941-.297.297.15.644.446.941.594.297.15.445.297.644.446.198.15.297.297.445.446.149.15.297.297.297.594 0 .297-.149.594-.297.891-.149.297-.297.594-.594.891zM12 0C5.373 0 0 5.373 0 12c0 2.126.577 4.125 1.585 5.84L0 24l6.305-1.515C7.988 23.483 9.95 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/>
           </svg>
         </a>
